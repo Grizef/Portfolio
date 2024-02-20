@@ -23,7 +23,7 @@ const positiveData = {
     'V': { word: 'Vif', definition: 'Rapide, alerte, plein d’énergie.' },
     'W': { word: 'Winner', definition: 'Gagnant, celui qui remporte une victoire.' },
     'X': { word: 'Xénophile', definition: 'Qui est attiré par ce qui est étranger, par les cultures différentes.' },
-    'Y': { word: 'YingYang', definition: 'Principe de dualité, représentant des forces opposées mais complémentaires.' },
+    'Y': { word: 'YinYang', definition: 'Principe de dualité, représentant des forces opposées mais complémentaires.' },
     'Z': { word: 'Zélé', definition: 'Plein de zèle, très actif et enthousiaste dans sa tâche.' }
 };
 
