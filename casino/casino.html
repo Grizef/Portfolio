@@ -7,6 +7,30 @@
     <title>Casino</title>
 </head>
 <body>
-    <h1>Casino</h1>
-</body>
+
+    <header>
+        <h1>Casino des Comportements</h1>
+        <p>Choisissez votre comportement</p>
+    </header>
+    
+    <div id="app">
+        {{ message }} <br>
+        {{'Random number: ' + Math.ceil(Math.random()*6) }}
+      </div>
+  
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  
+    <script>
+      const app = Vue.createApp({
+        data() {
+          return {
+            message: "Hello World!"
+          }
+        }
+      })
+  
+     app.mount('#app')
+  
+    </script>
+  </body>
 </html>
