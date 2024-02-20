@@ -1,0 +1,51 @@
+body {
+	background-color: antiquewhite;
+}
+
+/* Style pour le conteneur principal */
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour le sélecteur de lettre */
+#letterSelector {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Style pour le bouton de soumission */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style pour le conteneur de résultats */
+#resultContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Style pour les titres */
+h3 {
+    margin-top: 5px;
+}
+
+/* Style pour les définitions */
+p {
+    margin-bottom: 5px;
+}
